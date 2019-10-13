@@ -5,6 +5,7 @@
         </div>
         <router-view></router-view> -->
         <div class="change-box"></div>
+        <div class="btn"></div>
     </div>
 
 </template>
@@ -76,6 +77,39 @@ export default {
                 75%{
                     clip: rect(0 5px 210px 0);
                 }
+            }
+        }
+
+        .btn{
+            width: 200px;
+            height: 40px;
+            margin: 10px auto;
+            border-radius: 20px;
+            background: #6cf;
+            cursor: pointer;
+            position: relative;
+        }
+        .btn:after{
+            content: '';
+            // background: linear-gradient(0deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0)); 
+            // transform: skewx(-25deg);
+            background: radial-gradient(circle at 30px 20px, #ffffff50, transparent); 
+            transition: all .5s; 
+            // transform: skewx(-25deg);
+            width: 90px; 
+            height: 90px; 
+            position: absolute; 
+            left: 0; 
+            top: -50%;
+            border-radius: 90px;
+            animation: change 1.5s linear infinite;
+        }
+        @keyframes change{
+            0%{
+                left: 0;
+            }
+            50%,100%{
+                left: 100%;
             }
         }
     }
