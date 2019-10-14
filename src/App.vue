@@ -158,7 +158,12 @@ export default {
                 content: '';
                 position: absolute;
                 height: 100%;
-
+                width: 20px;
+                left: 0;
+                box-shadow: 0 0 10px 5px #ffffff30;
+                background: #ffffff30;
+                transform: skewX(-25deg);
+                animation: change 1.5s infinite linear;
             }
         }
         @keyframes change{
