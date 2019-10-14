@@ -1,9 +1,9 @@
 <template>
     <div class="app">
-        <!-- <div class="banner">
+        <div class="banner">
             <router-link class="route" v-for="path in routerData" :to="path.path" :key="path.path">{{path.name}}</router-link>
         </div>
-        <router-view></router-view> -->
+        <router-view></router-view>
         <div class="change-box"></div>
         <div class="btn-box">按钮</div>
         <div class="download">下载</div>
@@ -14,9 +14,9 @@ export default {
     data(){
         return {
             routerData: [
-                {path: '/', name: '默认模块'},
-                {path: '/A', name: 'A'},
-                {path: '/B', name: 'B'},
+                {path: '/', name: '默认路由'},
+                {path: '/A', name: '这是路由A'},
+                {path: '/B', name: '这是路由B'},
             ]
         }
     }
@@ -44,9 +44,32 @@ export default {
             text-align: center;
             .route{
                 margin: 0 20px;
-                &:link {color: #FF0000}
-                &:visited {color: #00FF00}
-                &:hover {color: #FF00FF}
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                text-decoration: none;
+                position: relative;
+                color: #000000;
+                // &:link {color: #FF0000}
+                // &:visited {color: #00FF00}
+                // &:hover {color: #FF00FF}
+                &::after{
+                    content: '';
+                    position: absolute;
+                    left: 100%;
+                    bottom: 0;
+                    width: 0;
+                    height: 2px;
+                    background: aqua;
+                    transition: all .2s linear;
+                }
+                &:hover::after{
+                    left: 0;
+                    width: 100%;
+                }
+            }
+            .route:hover ~ .route::after{
+                left: 0;
             }
         }
         .change-box{
