@@ -4,11 +4,15 @@ import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.use(ElementUI);
 
-import './js/autoload'
-import './error/error';
+// 加载看板娘
+import './js/autoload';
+// 容错处理
+// import './error/error';
 import App from './App';
-import router from './router/router'
+import router from './router/router';
 
+import EvaIcons from 'vue-eva-icons';
+Vue.use(EvaIcons);
 
 new Vue({
     el: '#app',

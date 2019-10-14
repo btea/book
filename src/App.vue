@@ -5,9 +5,9 @@
         </div>
         <router-view></router-view> -->
         <div class="change-box"></div>
-        <div class="btn"></div>
+        <div class="btn-box">按钮</div>
+        <div class="download">下载</div>
     </div>
-
 </template>
 <script>
 export default {
@@ -22,8 +22,20 @@ export default {
     }
 }
 </script>
-<style lang="less" scoped>
+<style lang="scss" scoped>
     .app{
+        @mixin radius($v){
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin: 10px auto;
+            border-radius: $v;
+            background: #6cf;
+            cursor: pointer;
+            position: relative;
+            color: #ffffff;
+        }
         text-align: center;
         h1{
             text-align: center;
@@ -43,14 +55,13 @@ export default {
             margin: auto;
             position: relative;
             background: aqua;
-            --w: -5px;
             &::before, &::after{
                 content: '';
                 position: absolute;
-                top: var(--w);
-                right: var(--w);
-                bottom: var(--w);
-                left: var(--w);
+                top: -5px;
+                right: -5px;
+                bottom: -5px;
+                left: -5px;
                 z-index: -1;
                 animation: move 5s linear infinite; 
             }
@@ -80,6 +91,20 @@ export default {
             }
         }
 
+        .btn-box{
+            @include radius(20px);
+            &::after{
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 0;
+                height: 0;
+                border-radius: 50%;
+                box-shadow: 0 0 45px 24px #ffffff;
+                animation: change 1.5s linear infinite;
+            }
+        }
         .btn{
             width: 200px;
             height: 40px;
@@ -88,28 +113,41 @@ export default {
             background: #6cf;
             cursor: pointer;
             position: relative;
-        }
-        .btn:after{
+            &::after{
             content: '';
-            // background: linear-gradient(0deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0)); 
-            // transform: skewx(-25deg);
-            background: radial-gradient(circle at 30px 20px, #ffffff50, transparent); 
-            transition: all .5s; 
-            // transform: skewx(-25deg);
-            width: 90px; 
-            height: 90px; 
-            position: absolute; 
-            left: 0; 
-            top: -50%;
-            border-radius: 90px;
-            animation: change 1.5s linear infinite;
+                // background: linear-gradient(0deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0)); 
+                // transform: skewx(-25deg);
+                background: radial-gradient(circle at 30px 20px, #ffffff50, transparent); 
+                transition: all .5s; 
+                // transform: skewx(-25deg);
+                width: 90px; 
+                height: 90px; 
+                position: absolute; 
+                left: 0; 
+                top: -50%;
+                border-radius: 90px;
+                animation: change 1.5s linear infinite;
+            }
+        }
+        .download{
+            @include radius(20px);
+            &::after{
+                content: '';
+                position: absolute;
+                height: 100%;
+
+            }
         }
         @keyframes change{
             0%{
                 left: 0;
             }
+            49%{
+                opacity: 1;
+            }
             50%,100%{
                 left: 100%;
+                opacity: 0;
             }
         }
     }
