@@ -7,10 +7,15 @@
         <div class="change-box"></div>
         <div class="btn-box">按钮</div>
         <div class="download">下载</div>
+        <wall-paper></wall-paper>
     </div>
 </template>
 <script>
+import wallPaper from './components/wallPaper'
 export default {
+    components: {
+        wallPaper
+    },
     data(){
         return {
             routerData: [

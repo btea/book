@@ -5,7 +5,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 
 // 加载看板娘
-import './js/autoload';
+// import './js/autoload';
 // 容错处理
 // import './error/error';
 import App from './App';
