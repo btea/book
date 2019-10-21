@@ -1,15 +1,21 @@
 <template>
     <div class="wall-paper">
         <!-- <img src="/public/img/001.jpg" alt=""> -->
-        <div class="paper" :class="'paper' + i" v-for="(link, i) in links" :key="link" :style="{backgroundImage: 'url(' + path + link + ')'}"></div>
+        <div class="paper" :class="'paper' + i" v-for="(link, i) in links" :key="link" :style="{backgroundImage: 'url(' + links[i] + ')'}"></div>
     </div>
 </template>
 <script>
+import one from '../../public/img/001.jpg';
+import two from '../../public/img/002.jpg';
+import three from '../../public/img/003.jpg';
+import four from '../../public/img/004.jpg';
+import five from '../../public/img/005.jpg';
+
 export default {
     data(){
         return {
             path: '/public/img/00',
-            links: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg']
+            links: [one, two, three, four, five]
         }
     }
 }
