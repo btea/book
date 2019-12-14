@@ -19,7 +19,10 @@
 [在线编辑markdown(能同步看效果)](https://www.mdeditor.com/)  
 [marked(markdown转html)](https://github.com/markedjs/marked)
 
-### DOM
+### __DOM__
 ___遇事不决，可问春风___
 
-[addEventListener第三个参数，提升页面滚动性能](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/blob/master/archives/006-web-scrolling-performance-optimization-passive-event-listeners.md)
+[addEventListener第三个参数，提升页面滚动性能](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/blob/master/archives/006-web-scrolling-performance-optimization-passive-event-listeners.md)  
+
+[requestIdleCallback 当浏览器处于闲置状态时，调度工作的新的性能相关的API](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/9)  
+[requestIdleCallback MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestIdleCallback)
