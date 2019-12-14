@@ -13,3 +13,13 @@
 ## 看番列表
 [d站](https://www.5dm.tv/timeline)  
 [bimibimi](http://www.bimibimi.tv/)
+
+
+### markdown
+[在线编辑markdown(能同步看效果)](https://www.mdeditor.com/)  
+[marked(markdown转html)](https://github.com/markedjs/marked)
+
+### DOM
+___遇事不决，可问春风___
+
+[addEventListener第三个参数，提升页面滚动性能](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/blob/master/archives/006-web-scrolling-performance-optimization-passive-event-listeners.md)
