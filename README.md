@@ -26,3 +26,6 @@ ___遇事不决，可问春风___
 
 [requestIdleCallback 当浏览器处于闲置状态时，调度工作的新的性能相关的API](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/9)  
 [requestIdleCallback MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestIdleCallback)
+
+### ___工具___
+[图片放大](https://bigjpg.com/zh)
