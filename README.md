@@ -32,3 +32,6 @@ ___遇事不决，可问春风___
 
 ### ___电子书下载___
 [列表](https://epubw.com/)
+
+### awesome
+[list](https://www.vipbic.com/rank.html)
