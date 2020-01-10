@@ -12,7 +12,8 @@
 
 ## 看番列表
 [d站](https://www.5dm.tv/timeline)  
-[bimibimi](http://www.bimibimi.tv/)
+[bimibimi](http://www.bimibimi.tv/)  
+[bgm](https://bgm.tv)
 
 
 ### markdown
