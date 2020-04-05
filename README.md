@@ -12,12 +12,14 @@
 
 ## 看番列表
 [d站](https://www.5dm.tv/timeline)  
-[bimibimi](http://www.bimibimi.tv/)
+[bimibimi](http://www.bimibimi.tv/)  
+[bgm](https://bgm.tv)
 
 
 ### markdown
 [在线编辑markdown(能同步看效果)](https://www.mdeditor.com/)  
-[marked(markdown转html)](https://github.com/markedjs/marked)
+[marked(markdown转html)](https://github.com/markedjs/marked)  
+[turndown(html转markdown)](https://github.com/domchristie/turndown)
 
 ### __DOM__
 ___遇事不决，可问春风___
@@ -26,6 +28,15 @@ ___遇事不决，可问春风___
 
 [requestIdleCallback 当浏览器处于闲置状态时，调度工作的新的性能相关的API](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/9)  
 [requestIdleCallback MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestIdleCallback)
+
+### ___工具___
+[图片放大](https://bigjpg.com/zh)
+
+### ___电子书下载___
+[列表](https://epubw.com/)
+
+### awesome
+[list](https://www.vipbic.com/rank.html)
 
 ### __JavaScript__  
 [深入理解JavaScript系列](https://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)  
