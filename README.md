@@ -26,3 +26,14 @@ ___遇事不决，可问春风___
 
 [requestIdleCallback 当浏览器处于闲置状态时，调度工作的新的性能相关的API](https://github.com/justjavac/the-front-end-knowledge-you-may-not-know/issues/9)  
 [requestIdleCallback MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestIdleCallback)
+
+### __JavaScript__  
+[深入理解JavaScript系列](https://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)  
+### __HTML__  
+[合成层(composite)](http://jartto.wang/2017/09/29/expand-on-performance-composite/)    
+### __BROWSER__
+[图解浏览器的基本工作原理](https://zhuanlan.zhihu.com/p/47407398)    
+### __WebPack__  
+[webpack原理](https://segmentfault.com/a/1190000015088834?utm_source=tag-newest)  
+### __Vue__  
+[vuex源码学习](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484399&amp;idx=1&amp;sn=70494ab90a38666c41c3a024097c162e&source=41#wechat_redirect)
