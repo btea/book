@@ -40,7 +40,8 @@ ___遇事不决，可问春风___
 
 ### __JavaScript__  
 [深入理解JavaScript系列](https://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)   
-[前端进阶](https://muyiy.cn/question/js/41.html)  
+[前端进阶](https://muyiy.cn/question/js/41.html)   
+[基础进阶系列](https://yangbo5207.github.io/wutongluo/ji-chu-jin-jie-xi-lie/shi-si-3001-es6-chang-yong-zhi-shi-he-ji.html)
 ### __HTML__  
 [合成层(composite)](http://jartto.wang/2017/09/29/expand-on-performance-composite/)    
 ### __BROWSER__
@@ -49,3 +50,5 @@ ___遇事不决，可问春风___
 [webpack原理](https://segmentfault.com/a/1190000015088834?utm_source=tag-newest)  
 ### __Vue__  
 [vuex源码学习](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484399&amp;idx=1&amp;sn=70494ab90a38666c41c3a024097c162e&source=41#wechat_redirect)
+### __综合学习路线__  
+[vue/react](https://zhuanlan.zhihu.com/p/119283701)  
