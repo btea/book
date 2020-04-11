@@ -44,6 +44,11 @@ ___遇事不决，可问春风___
 [基础进阶系列](https://yangbo5207.github.io/wutongluo/ji-chu-jin-jie-xi-lie/shi-si-3001-es6-chang-yong-zhi-shi-he-ji.html)
 ### __HTML__  
 [合成层(composite)](http://jartto.wang/2017/09/29/expand-on-performance-composite/)    
+### __HTTP__  
+[http以及各版本区别特点](https://www.zhihu.com/question/20391668/answer/915889286)    
+[chrome http](https://zhuanlan.zhihu.com/p/33846206)  
+[http3](https://zhuanlan.zhihu.com/p/58668946)  
+[输入url到页面加载过程](https://zhuanlan.zhihu.com/p/34453198)   
 ### __BROWSER__
 [图解浏览器的基本工作原理](https://zhuanlan.zhihu.com/p/47407398)    
 ### __WebPack__  
