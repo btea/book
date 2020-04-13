@@ -48,6 +48,7 @@ ___遇事不决，可问春风___
 [http以及各版本区别特点](https://www.zhihu.com/question/20391668/answer/915889286)    
 [chrome http](https://zhuanlan.zhihu.com/p/33846206)  
 [http3](https://zhuanlan.zhihu.com/p/58668946)  
+[三次握手和四次挥手](https://zhuanlan.zhihu.com/p/86426969)   
 [输入url到页面加载过程](https://zhuanlan.zhihu.com/p/34453198)   
 ### __BROWSER__
 [图解浏览器的基本工作原理](https://zhuanlan.zhihu.com/p/47407398)    
