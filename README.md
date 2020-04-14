@@ -52,6 +52,12 @@ ___遇事不决，可问春风___
 [输入url到页面加载过程](https://zhuanlan.zhihu.com/p/34453198)   
 ### __BROWSER__
 [图解浏览器的基本工作原理](https://zhuanlan.zhihu.com/p/47407398)    
+[Webkit for Developer](https://www.paulirish.com/2013/webkit-for-developers/)  
+[16毫秒的优化](http://velocity.oreilly.com.cn/2013/ppts/16_ms_optimization--web_front-end_performance_optimization.pdf)  
+[requestAnimationFrame](https://www.zhangxinxu.com/wordpress/2013/09/css3-animation-requestanimationframe-tween-%E5%8A%A8%E7%94%BB%E7%AE%97%E6%B3%95/)    
+[Webkit 和 Chromium](https://blog.csdn.net/milado_nju)  
+[CPUJS说明文档](https://github.com/grz/cpujs/wiki/CPUJS%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3)  
+
 ### __WebPack__  
 [webpack原理](https://segmentfault.com/a/1190000015088834?utm_source=tag-newest)  
 ### __Vue__  
