@@ -56,11 +56,14 @@ ___遇事不决，可问春风___
 [16毫秒的优化](http://velocity.oreilly.com.cn/2013/ppts/16_ms_optimization--web_front-end_performance_optimization.pdf)  
 [requestAnimationFrame](https://www.zhangxinxu.com/wordpress/2013/09/css3-animation-requestanimationframe-tween-%E5%8A%A8%E7%94%BB%E7%AE%97%E6%B3%95/)    
 [Webkit 和 Chromium](https://blog.csdn.net/milado_nju)  
-[CPUJS说明文档](https://github.com/grz/cpujs/wiki/CPUJS%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3)  
-
+[CPUJS说明文档](https://github.com/grz/cpujs/wiki/CPUJS%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3)   
 ### __WebPack__  
 [webpack原理](https://segmentfault.com/a/1190000015088834?utm_source=tag-newest)  
 ### __Vue__  
 [vuex源码学习](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484399&amp;idx=1&amp;sn=70494ab90a38666c41c3a024097c162e&source=41#wechat_redirect)
 ### __综合学习路线__  
-[vue/react](https://zhuanlan.zhihu.com/p/119283701)  
+[vue/react](https://zhuanlan.zhihu.com/p/119283701)    
+### __Linux__  
+[Linux](http://billie66.github.io/TLCL/book/chap01.html)  
+
+ 
