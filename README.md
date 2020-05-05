@@ -65,5 +65,6 @@ ___遇事不决，可问春风___
 [vue/react](https://zhuanlan.zhihu.com/p/119283701)    
 ### __Linux__  
 [Linux](http://billie66.github.io/TLCL/book/chap01.html)  
-
+### __typescript__  
+[深入理解TypeScript](https://jkchao.github.io/typescript-book-chinese/#why)  
  
