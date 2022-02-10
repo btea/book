@@ -44,7 +44,7 @@
     "esri-leaflet": "^2.3.0",
     "heatmap.js": "^2.0.5",
     "leaflet": "^1.5.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.0",
     "vue": "^2.6.10",
     "vue-eva-icons": "^1.1.1",
